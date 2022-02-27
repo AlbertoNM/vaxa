@@ -1,10 +1,12 @@
 import './App.css';
-import { MainText } from './components/home/MainText/MainText'
+import { Container } from './components/home/Container/Container';
+import { Navar } from './components/Navar/Navar';
 
 function App() {
   return (
     <div className="App">
-			<MainText/>
+			{/* <Navar/> */}
+			<Container/>
     </div>
   );
 }

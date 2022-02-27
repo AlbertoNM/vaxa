@@ -1,0 +1,15 @@
+#Buys {
+	align-items: flex-start;
+}
+
+#Buys h3 {
+	margin: 1rem 0rem;
+}
+
+#eye {
+	filter: invert(59%) sepia(15%) saturate(904%) hue-rotate(207deg) brightness(92%) contrast(88%);
+}
+
+#moon {
+	filter: invert(81%) sepia(50%) saturate(228%) hue-rotate(161deg) brightness(102%) contrast(95%);
+}

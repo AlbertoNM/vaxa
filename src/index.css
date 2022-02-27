@@ -1,8 +1,17 @@
+:root {
+	--grey:#242428;
+	--blue:#b6ebf9;
+	--purple:#8e87c1;
+	--green:#cffcee;
+}
+
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 html {
 	font-size: 62.5%;
+	background-color: var(--grey);
 }
