@@ -1,12 +1,15 @@
 import './App.css';
-import { Container } from './components/home/Container/Container';
+import { BrowserRouter as Router } from "react-router-dom";
 import { Navar } from './components/Navar/Navar';
+import { Container } from './components/home/Container/Container'
 
 function App() {
   return (
     <div className="App">
-			{/* <Navar/> */}
-			<Container/>
+			<Router>
+				<Navar/>
+				<Container/>
+			</Router>
     </div>
   );
 }

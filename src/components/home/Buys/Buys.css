@@ -1,9 +1,19 @@
-#Buys {
-	align-items: flex-start;
+.Buys {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-#Buys h3 {
-	margin: 1rem 0rem;
+.list_buys {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.product {
+	width: 100%;
 }
 
 #eye {

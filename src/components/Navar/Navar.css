@@ -1,0 +1,17 @@
+.Navar {
+	margin: 3rem;
+}
+
+.Navar__ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+}
+
+.links {
+	font-family: Roboto;
+	color: white;
+	font-size: 5rem;
+	margin: 0rem 3rem;
+	text-decoration: none;
+}

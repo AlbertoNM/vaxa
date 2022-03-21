@@ -5,15 +5,15 @@ import './Navar.css';
 function Navar() {
 	return(
 		<nav className="Navar">
-			<ul>
+			<ul className="Navar__ul">
 				<Link to='/'>
-					<li>Home</li>
+					<li className="links">Home</li>
 				</Link>
 				<Link to='/sobre-nosotros' >
-					<li>About</li>
+					<li className="links">About</li>
 				</Link>
 				<Link to='/paquetes' >
-					<li>Paquetes</li>
+					<li className="links">Paquetes</li>
 				</Link>
 			</ul>
 		</nav>

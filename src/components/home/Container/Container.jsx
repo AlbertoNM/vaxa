@@ -8,14 +8,11 @@ import { Buys } from '../Buys/Buys';
 function Container() {
 	return(
 		<div className="Container">
-			{/* <Routes>
+			<Routes>
 					<Route path="/" element={<MainText/>} />
 					<Route path="/sobre-nosotros" element={<AboutUs/>} />
 					<Route path="/paquetes" element={<Buys/>} />
-			</Routes> */}
-			<MainText/>
-			<AboutUs/>
-			<Buys/>
+			</Routes>
 		</div>
 	);
 }

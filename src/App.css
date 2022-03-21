@@ -1,5 +1,6 @@
 .App {
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	width: 100vw;
@@ -18,21 +19,20 @@
 	font-family: Roboto;
 }
 
-.section h3 {
-	margin: 1rem 0;
-}
-
 .section__title {
 	font-size: 8rem;
 }
 
 .section__subtitle {
 	font-size: 5rem;
+
+	margin: 1rem 0;
 }
 
 .section__paragraph {
 	font-size: 3rem;
 	font-family: roboto-serif;
+	margin: 1rem 0;
 }
 
 .section__text {
@@ -51,8 +51,7 @@
 .section__img {
 	width: 15rem;
 	object-fit: cover;
-	align-self: center;
-	margin: 1rem;
+	margin: 1rem auto;
 }
 
 .info__section {
@@ -65,4 +64,5 @@
 .section__list {
 	list-style: none;
 	font-size: 2.5rem;
+	margin: 1rem 0;
 }
