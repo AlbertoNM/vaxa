@@ -10,7 +10,7 @@ function Navar() {
 					<li className="links">Home</li>
 				</Link>
 				<Link to='/sobre-nosotros' >
-					<li className="links">About</li>
+					<li className="links">Info</li>
 				</Link>
 				<Link to='/paquetes' >
 					<li className="links">Paquetes</li>

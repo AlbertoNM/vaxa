@@ -4,12 +4,12 @@ import serpent from '../../../assets/serpent.svg';
 
 function MainText() {
 	return(
-		<div className="MainText container__info">
+		<div className="MainText container__info animate__animated animate__bounceInUp">
 			<section className="MainText__section section">
-				<h3 className="section__title">Lorem Ipsum</h3>
-				<h3 className="section__subtitle">Lorem ipsum dolor sit amet consectetur</h3>
-				<h3 className="section__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem, ut adipisci. Harum earum iste optio repudiandae quidem omnis aspernatur vel eaque, id praesentium, commodi recusandae nam non dolore officia porro.</h3>
-				<h3 className="section__text">Lorem, ipsum dolor</h3>
+				<h3 className="section__title">Växa</h3>
+				<h3 className="section__subtitle">¿Problemas en la vida?</h3>
+				<h3 className="section__paragraph">¿No consigues ese puesto, no te llega ese aumento, te sientes pesado, lleno de mala vibra, esa persona que amas no te corresponde, te sientes triste, solo, apagado y el metodo convencional no te funciona?</h3>
+				<h3 className="section__footer">Intenta con nuestras soluciones esotéricas, magia blanca al alcance de un día. Consulta diagnóstico de la mejor calidad.</h3>
 			</section>
 			<figure className="MainText__figure figure">
 				<img className="figure__img" src={serpent} alt="serpent" />

@@ -7,7 +7,7 @@ import { Buys } from '../Buys/Buys';
 
 function Container() {
 	return(
-		<div className="Container">
+		<div className="Container animate__animated animate__bounceInUp">
 			<Routes>
 					<Route path="/" element={<MainText/>} />
 					<Route path="/sobre-nosotros" element={<AboutUs/>} />

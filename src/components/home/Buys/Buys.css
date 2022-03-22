@@ -1,20 +1,10 @@
 .Buys {
-	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-}
-
-.list_buys {
-	width: 80%;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
-.product {
 	width: 100%;
 }
+
 
 #eye {
 	filter: invert(59%) sepia(15%) saturate(904%) hue-rotate(207deg) brightness(92%) contrast(88%);
