@@ -9,9 +9,9 @@ function Container() {
 	return(
 		<div className="Container animate__animated animate__bounceInUp">
 			<Routes>
-					<Route path="/" element={<MainText/>} />
-					<Route path="/sobre-nosotros" element={<AboutUs/>} />
-					<Route path="/paquetes" element={<Buys/>} />
+					<Route path="/vaxa/" element={<MainText/>} />
+					<Route path="/vaxa/sobre-nosotros" element={<AboutUs/>} />
+					<Route path="/vaxa/paquetes" element={<Buys/>} />
 			</Routes>
 		</div>
 	);
