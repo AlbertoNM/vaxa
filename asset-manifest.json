@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/tarot/static/css/main.a148dc35.css",
-    "main.js": "/tarot/static/js/main.cf0e2a11.js",
-    "static/media/serpent.svg": "/tarot/static/media/serpent.ac186fa8d1930772e6fdf38ba32e3d1a.svg",
-    "static/media/bottle.svg": "/tarot/static/media/bottle.c3a6bdc7b63936d89213656beb66c8ba.svg",
-    "static/media/serpent2.svg": "/tarot/static/media/serpent2.537db9baf9be973e8fda0bd1ddff4833.svg",
-    "static/media/eye.svg": "/tarot/static/media/eye.ee7c19c4bc5282f41ff24e75f4efd53e.svg",
-    "static/media/moon.svg": "/tarot/static/media/moon.f5528ffd613c2fbcf8d54e0b910356ce.svg",
-    "index.html": "/tarot/index.html",
-    "main.a148dc35.css.map": "/tarot/static/css/main.a148dc35.css.map",
-    "main.cf0e2a11.js.map": "/tarot/static/js/main.cf0e2a11.js.map"
+    "main.css": "/vaxa/static/css/main.ac2ab72c.css",
+    "main.js": "/vaxa/static/js/main.678fa087.js",
+    "static/media/serpent.svg": "/vaxa/static/media/serpent.ac186fa8d1930772e6fdf38ba32e3d1a.svg",
+    "static/media/bottle.svg": "/vaxa/static/media/bottle.c3a6bdc7b63936d89213656beb66c8ba.svg",
+    "static/media/serpent2.svg": "/vaxa/static/media/serpent2.537db9baf9be973e8fda0bd1ddff4833.svg",
+    "static/media/eye.svg": "/vaxa/static/media/eye.ee7c19c4bc5282f41ff24e75f4efd53e.svg",
+    "static/media/moon.svg": "/vaxa/static/media/moon.f5528ffd613c2fbcf8d54e0b910356ce.svg",
+    "index.html": "/vaxa/index.html",
+    "main.ac2ab72c.css.map": "/vaxa/static/css/main.ac2ab72c.css.map",
+    "main.678fa087.js.map": "/vaxa/static/js/main.678fa087.js.map"
   },
   "entrypoints": [
-    "static/css/main.a148dc35.css",
-    "static/js/main.cf0e2a11.js"
+    "static/css/main.ac2ab72c.css",
+    "static/js/main.678fa087.js"
   ]
 }
