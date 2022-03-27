@@ -1,45 +1,50 @@
-@media screen and (min-width: 320px) {
 
+.Navar {
+	width: 100vw;
+	padding: 2rem 0rem;
+	position: sticky;
+	top: 0;
+	background-color: var(--greyTwo);
+	z-index: 1;
+}
+
+.Navar__ul {
+	text-align: center;
+	list-style: none;
+	overflow: auto;
+  white-space: nowrap;
+}
+
+.links {
+	display: inline-block;
+	font-family: var(--mainFont);
+	color: white;
+	font-size: 2.5rem;
+	margin: 0rem 40%;
+	text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
 	.Navar {
-		width: 100vw;
-		padding: 2rem 0rem;
-		position: sticky;
-		top: 0;
-		background-color: var(--grey);
-		z-index: 1;
+		padding: 2rem;
 	}
 
 	.Navar__ul {
 		display: flex;
 		flex-direction: row;
-		list-style: none;
-		justify-content: center;
+		justify-content: space-evenly;
 	}
 
 	.links {
-		font-family: var(--mainFont);
-		color: white;
-		font-size: 2.5rem;
-		margin: 0rem 1rem;
-		text-decoration: none;
-	}
-}
-
-@media screen and (min-width: 600px) {
-	.Navar {
-		padding: 3.5rem;
-	}
-
-	.links {
+		margin: 0;
 		font-size: 3rem;
-		margin: 0rem 3rem;
 	}
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1024px) {
 
 	.links {
-		font-size: 5rem;
-		margin: 0rem 3rem;
+		font-size: 4rem;
 	}
+
 }

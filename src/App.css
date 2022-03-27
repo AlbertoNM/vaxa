@@ -1,94 +1,71 @@
-@media screen and (min-width: 320px) {
 
-	.App {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 100vw;
-		color: white;
-	}
+.App {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	color: white;
+}
 
-	.section {
-		width: 100%;
-		font-family: var(--mainFont);
-	}
+.section {
+	width: 100%;
+	font-family: var(--mainFont);
+}
 
-	.section__title {
-		font-size: 6rem;
-		margin: 1rem 0;
-	}
+.section__title {
+	font-size: 6rem;
+	margin: 1rem 0;
+}
 
-	.section__subtitle {
-		font-size: 3rem;
-		font-family: var(--mainFont);
-		margin: 1rem 0;
-	}
+#red {
+	color: var(--red);
+}
 
-	.section__paragraph {
-		font-size: 2rem;
-		font-family: var(--mainFont);
-		margin: 1rem 0;
-	}
+.section__subtitle {
+	font-size: 4rem;
+	font-family: var(--mainFont);
+	margin: 1rem 0;
+}
 
-	.section__footer {
-		font-size: 2rem;
-		margin: 1rem 0rem;
-	}
+.section__paragraph {
+	font-size: 3rem;
+	font-family: var(--mainFont);
+	margin: 1rem 0;
+}
 
-	.section__img {
+.section__footer {
+	font-size: 2rem;
+	margin: 1rem 0rem;
+}
+
+.section__img {
+	object-fit: cover;
+	margin: 1rem auto;
+	width: 15rem;
+}
+
+.info__section {
+	display: flex;
+	flex-direction: column;
+	margin: 2rem 0rem;
+}
+
+.section__list {
+	list-style: none;
+	font-size: 2.5rem;
+	margin: 1rem 0;
+}
+
+.figure {
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+
+	.background {
 		object-fit: cover;
-		margin: 1rem auto;
-		width: 15rem;
 	}
-
-	.info__section {
-		display: flex;
-		flex-direction: column;
-		margin: 2rem 0rem;
-	}
-
-	.section__list {
-		list-style: none;
-		font-size: 2.5rem;
-		margin: 1rem 0;
-	}
-
-	.figure {
-		width: 100%;
-	}
-
-}
-
-@media screen and (min-width: 600px) {
-
-	.section {
-		width: 100%;
-	}
-
-	.section__title {
-		font-size: 7rem;
-	}
-
-	.section__subtitle {
-		font-size: 4rem;
-	}
-
-	.section__paragraph {
-		font-size: 3rem;
-	}
-
-	.section__footer {
-		font-size: 2rem;
-	}
-
-	.figure {
-		width: 100%;
-	}
-
-}
-
-@media screen and (min-width: 800px) {
 
 	.container__info {
 		display: flex;
@@ -101,11 +78,20 @@
 	}
 
 	.section__title {
-		font-size: 7rem;
+		font-size: 6.5rem;
 	}
 
 	.section__subtitle {
-		font-size: 4rem;
+		font-size: 4.5rem;
+	}
+
+
+	.section__paragraph {
+		font-size: 3.5rem;
+	}
+
+	.section__footer {
+		font-size: 2.5rem;
 	}
 
 	.figure {
@@ -114,14 +100,14 @@
 
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
 
 	.section__title {
 		font-size: 8rem;
 	}
 
 	.section__subtitle {
-		font-size: 5rem;
+		font-size: 6rem;
 	}
 
 	.section__paragraph {
