@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/vaxa/static/css/main.ac2ab72c.css",
-    "main.js": "/vaxa/static/js/main.678fa087.js",
+    "main.css": "/vaxa/static/css/main.0d6e998d.css",
+    "main.js": "/vaxa/static/js/main.ad61f113.js",
     "static/media/serpent.svg": "/vaxa/static/media/serpent.ac186fa8d1930772e6fdf38ba32e3d1a.svg",
     "static/media/bottle.svg": "/vaxa/static/media/bottle.c3a6bdc7b63936d89213656beb66c8ba.svg",
     "static/media/serpent2.svg": "/vaxa/static/media/serpent2.537db9baf9be973e8fda0bd1ddff4833.svg",
+    "static/media/background.svg": "/vaxa/static/media/background.cb6ded186096f79c00f0.svg",
+    "static/media/card.svg": "/vaxa/static/media/card.268dace800538cffd3d307d19c27f3c7.svg",
     "static/media/eye.svg": "/vaxa/static/media/eye.ee7c19c4bc5282f41ff24e75f4efd53e.svg",
     "static/media/moon.svg": "/vaxa/static/media/moon.f5528ffd613c2fbcf8d54e0b910356ce.svg",
     "index.html": "/vaxa/index.html",
-    "main.ac2ab72c.css.map": "/vaxa/static/css/main.ac2ab72c.css.map",
-    "main.678fa087.js.map": "/vaxa/static/js/main.678fa087.js.map"
+    "main.0d6e998d.css.map": "/vaxa/static/css/main.0d6e998d.css.map",
+    "main.ad61f113.js.map": "/vaxa/static/js/main.ad61f113.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac2ab72c.css",
-    "static/js/main.678fa087.js"
+    "static/css/main.0d6e998d.css",
+    "static/js/main.ad61f113.js"
   ]
 }
