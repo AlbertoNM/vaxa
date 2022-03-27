@@ -29,14 +29,38 @@
 }
 
 .section__paragraph {
-	font-size: 3rem;
+	font-size: 2rem;
 	font-family: var(--mainFont);
 	margin: 1rem 0;
 }
 
+.justify {
+	text-align: justify;
+}
+
+.paragraph {
+	margin: 2rem 0;
+}
+
+.list_item {
+	font-family: var(--mainFont);
+	font-size: 1.5rem;
+}
+
 .section__footer {
+	font-family: var(--mainFont);
+	text-align: justify;
 	font-size: 2rem;
 	margin: 1rem 0rem;
+}
+
+.section__paquetes {
+	font-family: var(--mainFont);
+	display: inline-block;
+	font-size: 2.5rem;
+	text-decoration: none;
+	width: 100%;
+	text-align: center;
 }
 
 .section__img {
@@ -85,13 +109,20 @@
 		font-size: 4.5rem;
 	}
 
-
 	.section__paragraph {
-		font-size: 3.5rem;
+		font-size: 2.5rem;
+	}
+
+	.list_item {
+		font-size: 2rem;
 	}
 
 	.section__footer {
 		font-size: 2.5rem;
+	}
+
+	.section__paquetes {
+		font-size: 3.5rem;
 	}
 
 	.figure {
@@ -111,11 +142,19 @@
 	}
 
 	.section__paragraph {
-		font-size: 4rem;
+		font-size: 3rem;
+	}
+
+	.list_item {
+		font-size: 2.5rem;
 	}
 
 	.section__footer {
 		font-size: 3rem;
+	}
+
+	.section__paquetes {
+		font-size: 4rem;
 	}
 
 	.figure__img {

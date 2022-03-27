@@ -22,7 +22,7 @@ function Footer() {
 			<div className="Footer__social_media">
 				<img src={example} alt="" className="example" /><img src={example} alt="" className="example" /><img src={example} alt="" className="example" />
 			</div>
-			<a href="http://www.freepik.com" className='ref_link'>Vectors Designed by Freepik</a>
+			<a href="http://www.freepik.com" className='ref_link'>Illustrations Designed by Freepik</a>
     </div>
   );
 }
